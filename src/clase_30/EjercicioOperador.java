@@ -1,5 +1,7 @@
 package clase_30;
 
+import java.util.Scanner;
+
 public class EjercicioOperador {
 
 	public static void main(String[] args) {
@@ -100,8 +102,13 @@ public class EjercicioOperador {
 		System.out.println("valores de num1  y de  num2 "+num1+" < "+num2 );
 		System.out.println("resultado num1 < num2 "+(  num1 < num2 ) );
 		
-		
-		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		Scanner leer=new Scanner(System.in); 
+		System.out.println("Ingrese un Numero");
+		int num=leer.nextInt();
+		System.out.println("Tu Numero Ingresado es ----->"+num);
 	}
 
 }
